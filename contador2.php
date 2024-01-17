@@ -8,3 +8,5 @@ if(isset($_SESSION['num'])){
 
 $_SESSION['num'] = ++$num;
 echo $num;
+session_write_close();
+?>
