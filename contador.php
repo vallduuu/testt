@@ -7,5 +7,6 @@
             $count=0;
     }
 
-    setvookie('count',$count);
+    setcookie('count',$count);
     echo $count;
+?>
